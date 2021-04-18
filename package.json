@@ -1,8 +1,8 @@
 {
   "name": "my_portfolio",
-  "homepage": "https://kadaber95.github.io/My_Portaforlio_Kadaber/",
-  "version": "0.1.0",
+ "version": "0.1.0",
   "private": true,
+  "homepage": " http://kadaber.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
@@ -23,11 +23,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+   "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
